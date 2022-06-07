@@ -11,3 +11,70 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#ipodContainer{
+  width: 20rem;
+  height: 30rem; /*for m=now on auto lets change later*/
+  background-image: radial-gradient(#adb1b5, #4d4f50);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 30px;
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+#btnsContainer{
+  width: 20rem;
+  height: 15rem;
+  background-color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 30px;
+}
+#wheel{
+  width: 12rem;
+  height:12rem;
+  background-color: beige;
+  border-radius: 100px;
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#innerWheel{
+  width:5rem;
+  height: 5rem;
+  background-image: radial-gradient(#adb1b5, #4d4f50);
+  border-radius: 100px;
+  cursor: pointer;
+}
+.actionBtn img{
+  width: 30px;
+  height: 30px;
+  color: #adb1b5;
+}
+.actionBtn{
+  font-size: 1rem;
+  position: absolute;
+  cursor: pointer;
+}
+#menuBtn{
+  /* position: absolute; */
+  top: 20px;
+  left: 70px;
+}
+#forwardBtn{
+  top: 80px;
+  right: 15px;
+}
+#playPauseBtn{
+  top: 150px;
+  right: 80px;
+}
+#backwardBtn{
+  top: 80px;
+  left: 15px;
+}
